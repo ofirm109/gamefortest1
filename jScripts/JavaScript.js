@@ -1,4 +1,4 @@
-﻿var stop = false;
+var stop = false;
 var riset = false;
 var thistime = 4;
 var lose = false;
@@ -72,9 +72,9 @@ function youlose() {
         pum++
         if (pum < 5) {
         if (pum % 2 != 0) {
-            $("#monster").css("background-image", "url(../image/monsterlose-06.png)");
+            $("#monster").css("background-image", "url(https://raw.githubusercontent.com/ofirm109/gamefortest1/master/image/monsterlose-06.png)");
         } else {
-            $("#monster").css("background-image", "url(../image/monster-03.png)");
+            $("#monster").css("background-image", "url(https://raw.githubusercontent.com/ofirm109/gamefortest1/master/image/monster-03.png)");
             }
         }
         else {
@@ -114,9 +114,9 @@ function goal() {
         pum++
         if (pum < 5) {
             if (pum % 2 != 0) {
-                $("#monster").css("background-image", "url(../image/monsterSe-07.png)");
+                $("#monster").css("background-image", "url(https://raw.githubusercontent.com/ofirm109/gamefortest1/master/image/monsterSe-07.png)");
             } else {
-                $("#monster").css("background-image", "url(../image/monster-03.png)");
+                $("#monster").css("background-image", "url(https://raw.githubusercontent.com/ofirm109/gamefortest1/master/image/monster-03.png)");
             }
         }
         else {
